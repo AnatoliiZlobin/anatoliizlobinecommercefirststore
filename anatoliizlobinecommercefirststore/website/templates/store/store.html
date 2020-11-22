@@ -1,29 +1,34 @@
 <!DOCTYPE html>
-
+{% load static %}
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href='./store.css'>
+	<link rel="stylesheet" type="text/css" href="{% static '/css/store.css' %}">
 </head>
 <body>
-	<header class="header">
+	<header class="header_main">
 		<div class="header_inner">
-			<div class="header_menu">
-				<a class="header_brand" href="#">
-					AGROsupport
-				</a>
-				<nav class="nav">
-					<a class="nav_link" href="#">Home</a>
-					<a class="nav_link" href="#">Services</a>
-					<a class="nav_link" href="#">Shop</a>
-				</nav>
-				<button class="btn" type="button">Registration</button>
-			</div>
-			<div class="header_contacts">
-			</div>
+			<p class="header_brand" href="#">AGROsupport</p>
+		</div>
+		<div class="header_menu">
+			<nav class="nav_class">
+				<p class="nav_link" href="#">Home</p>
+				<p class="nav_link" href="#">Services</p>
+				<p class="nav_link" href="#">Shop</p>
+			</nav>
+		</div>
+		<div class="gradient-border">
+			<p>Registration</p>
+		</div>
+		<div class="header_contacts_phone">
+			<p class="contact_class" href="#"> +380999999999 </p>
+		</div>
+		<div class="header_contacts_email">
+			<p class="contact_class" href="#"> support@gmail.com</p>
+		</div>
 		</div>
 	</header>
 
