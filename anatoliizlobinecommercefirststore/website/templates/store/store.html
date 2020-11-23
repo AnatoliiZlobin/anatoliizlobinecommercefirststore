@@ -11,26 +11,45 @@
 <body>
 	<header class="header_main">
 		<div class="header_inner">
-			<p class="header_brand" href="#">AGROsupport</p>
-		</div>
+			<aside class="header_brand" href="#">AGROsupport</aside>
+		
 		<div class="header_menu">
-			<nav class="nav_class">
-				<p class="nav_link" href="#">Home</p>
-				<p class="nav_link" href="#">Services</p>
-				<p class="nav_link" href="#">Shop</p>
-			</nav>
+			
+				<aside class="service__menu" href="#">Home</aside>
+				<aside  class="service__menu" href="#">Services</aside>
+				<aside  class="service__menu" href="#">Registration</aside>
+			
 		</div>
-		<div class="gradient-border">
-			<p>Registration</p>
+	
+			<div class="gradient-border">
+				<aside class="text_btn">Shop</aside>
+			</div>
+		<div class="contacts">
+			<div class="header_contacts">
+				<p class="contact_class" href="#"> +380999999999 </p>
+			</div>
+			<div class="header_contacts">
+				<p class="contact_class" href="#"> support@gmail.com</p>
+			</div>
 		</div>
-		<div class="header_contacts_phone">
-			<p class="contact_class" href="#"> +380999999999 </p>
-		</div>
-		<div class="header_contacts_email">
-			<p class="contact_class" href="#"> support@gmail.com</p>
 		</div>
 		</div>
 	</header>
+	<div class="main__block">
+		<div class="proposition__txt">
+			<p> Repair of fuel equipment of domestic and foreign production<br>Overhaul of parts of your fuel equipment
+				<a href="#" class="get__more">learn more...</a>
+			</p>
+			<div class="btn_contact">
+				<p class="btn__cont gradient-border "> Register</p>
+			</div>
+		</div>
+		<div class="proposition__img">
+			<img class="prop__img" src="{% static 'images/test_enemy_photo.png' %}" alt="proposition image">
+			<aside class="gvarancy__txt">For over 20 years we have been helping you</aside>
+		</div>
+	</div>
+
 
 </body>
 </html>

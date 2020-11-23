@@ -1,48 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 html {
 	background-color: black;
 	color: white;
-	font-size: 20px;
+	font-size: 30px;
 	font-family: "Oswald";
 }
-.header_main {
-
-    width: 80%;
-    display: inline-flex;
-    margin-left: 10%;
-    margin-right: 10%;
-
-}
-body {
-	margin: 0px;
-}
 .header_inner {
-	margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header_main {
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .header_menu {
-	height: 5%;
-    display: inline;
-    margin: auto;
-}
-.nav_class {
-	margin: auto;
-}
-.header_contacts_phone {
-	margin: auto;
-}
-.header_contacts_email {
-	margin: auto;
-}
-.nav_link {
-	margin: auto;
-}
-p {
-	display: inline-flex;
+    display: flex;
+    padding: 20px 10px 0 20px;
+    justify-content: space-around;
 }
 
+.service__menu {
+    padding-left: 10%;
+}
 
+.header_brand {
+    padding: 20px 10px 0 20px;
+}
 
+.contacts {
+    display: flex;
+    padding: 20px 10px 0 20px;
+}
 
+.header_contacts {
+    padding-right: 20px;
+}
+
+.text_btn{
+	margin: 2px;
+}
 .gradient-border {
   --borderWidth: 3px;
   background: black;
@@ -79,5 +80,61 @@ p {
 	}
 }
 
+.main__block {
+    height: 100%;
+   	margin: 10%;
+    display: flex;
+}
 
+.proposition__txt {
+    justify-items: start;
+    width: 40%;
+    font-size: 40px;
+}
+
+.get__more{
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.proposition__img{
+	padding-right: 10%;
+}
+.prop__img  {
+    width: 100%;
+    height: 100%;
+    float: left;
+    
+}
+
+.gvarancy__txt {
+    padding-top: 50px;
+    margin-left: 20px;
+    color: rgba(240, 203, 243, 0.2);
+    font-size: 40px;
+    color: rgb(180, 180, 180, 0.3);
+        -webkit-text-stroke: 1px rgba(255, 165, 0, 0.7);
+}
+
+.btn_contact {
+    margin: 10% 0 0 2%;
+}
+
+.btn__cont {
+
+    width: 350px;
+    height: 50px;
+    -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+            -o-transform: skew(20deg);
+    background-color: black;
+}
+
+.reg__txt {
+    color: white;
+    text-decoration: none;
+        -moz-transform: skew(-20deg);
+    font-size: 150%;       
+}
 
