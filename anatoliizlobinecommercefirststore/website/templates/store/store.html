@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 {% load static %}
 <html lang="en">
 <head>
@@ -49,6 +50,12 @@
 			<aside class="gvarancy__txt">For over 20 years we have been helping you</aside>
 		</div>
 	</div>
+	<div class="connect_bd_tag">
+		{% for fortag in tag %}
+			{{fortag.tag_main_page}}
+		{% endfor %}
+	</div>
+
 
 
 </body>

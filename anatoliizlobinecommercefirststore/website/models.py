@@ -8,5 +8,8 @@ class DataMain(models.Model):
 	description = models.TextField(null=True)
 	image = forms.ImageField()
 	price = models.FloatField(max_length=10)
+	views_main_page = models.BooleanField(default=False)
 	stock_bool = models.BooleanField(default=False)
 	stock_int = models.IntegerField(null=True)
+class TagMainPage(models.Model):
+	tag_main_page = models.CharField(max_length=30)
