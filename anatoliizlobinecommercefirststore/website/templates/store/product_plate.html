@@ -1,0 +1,9 @@
+{% extends 'store.html' %}
+{% load static %}
+{% block content %}
+	<div class="product_plate">
+		{% for forproduct in product %}
+			{{forproduct.name}}
+		{% endfor %}
+	</div>
+{% endblock content %}

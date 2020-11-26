@@ -1,9 +1,10 @@
 from django.urls import path
-from . import views
-from website.views import *
+
+from website.views import  main_page_tag, product_plates
+
 
 
 urlpatterns = [
-	path('', store),
-
+	path('store/', main_page_tag),
+	path('', product_plates),
 ]
